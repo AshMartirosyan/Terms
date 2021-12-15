@@ -1,5 +1,6 @@
 .baseComponent {
   display: flex;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
@@ -21,7 +22,6 @@ h2 {
   margin-bottom: 20px;
   font-family: Poppins, sans-serif;
   color: #31355b;
-  font-size: 34px;
   line-height: 1.4;
   font-weight: 700;
   text-align: left;
@@ -41,4 +41,11 @@ p {
   font-size: 15px;
   font-family: Bryantpro, sans-serif;
   line-height: 1.4;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BryantPro";
+  src: url("./BryantPro-Regular.otf");
+  font-display: optional;
 }
